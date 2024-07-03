@@ -52,7 +52,7 @@ def recommendd(features, features_list):
 
     return indices
 
-uploaded_file = st.file_uploader("Choose your image")
+uploaded_file = st.file_uploader("C:\Users\Venkatesh\Downloads\FRS\images.csv")
 if uploaded_file is not None:
     if save_file(uploaded_file):
         # display image
